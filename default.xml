@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="snippets/01-remotes.xml" />
+  <include name="snippets/02-system.xml" />
+  <include name="snippets/03-vendor.xml" />
+  <include name="snippets/04-wlan.xml" />
+  <include name="snippets/05-remove.xml" />
+  <include name="snippets/06-aosp.xml" />
+  <include name="snippets/07-lineage.xml" />
+  <include name="snippets/08-croibake.xml" />
+</manifest>

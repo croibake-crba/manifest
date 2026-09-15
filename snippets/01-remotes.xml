@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- AOSP -->
+  <remote name="aosp"
+          fetch="https://android.googlesource.com"
+          review="https://android-review.googlesource.com/"
+          revision="refs/tags/android-17.0.0_r1" />
+  <deafult remote="aosp"
+           sync-j="8"
+           sync-c="true"
+           sync-tags="false" />
+
+  <!-- CLO -->
+  <remote name="clo-la"
+          fetch="https://git.codelinaro.org/clo/la"
+          sync-j="8"
+          sync-c="true"
+          sync-tags="false" />
+
+  <!-- LineageOS -->
+  <remote name="lineage"
+          fetch="https://github.com/lineageos"
+          review="review.lineageos.org"
+          sync-c="true"
+          sync-j="4"
+          revision="refs/heads/lineage-24.0"/>
+
+  <!-- Croissant Bakery -->
+  <remote name="croibake"
+          fetch="https://github.com/croibake"
+          sync-c="true"
+          sync-j="2"
+          revision="refs/heads/croibake-1.0" />
+  <remote name="croibake-devices"
+          fetch="https://github.com/croibake-devices"
+          sync-c="true"
+          sync-j="2"
+          revision="refs/heads/croibake-1.0" />
+
+</manifest>
